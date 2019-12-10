@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700&display=swap');
+
+
+body
+{
+    overflow-x:hidden;
+    font-family: 'Lato', sans-serif;
+}
+.navbar
+{
+     background:#F97300;
+     text-transform: uppercase;
+     font-weight: 700;
+     font-size: .9rem;
+     letter-spacing:.1rem;
+}
+
+.navbar-brand img{
+    height:2rem;
+}
+
+.navbar-nav li{
+    padding-right:.7rem;
+}
+
+.nav-link , .navbar-brand
+{ 
+    color: #f4f4f4; cursor: pointer;
+}
+.nav-link
+{ 
+    margin-right: 1em !important;
+}
+.navbar-nav .navbar-link.active,
+.navbar-nav .nav-link:hover
+{ 
+    background: #f4f4f4; color: #f97300; 
+}
+
+
+
+
+    /*header style*/
+.big-banner
+{
+    background-image: url('task.jpeg');
+    background-size: cover;
+    padding-top:500px;
+}
+.caption{
+    position: absolute;
+    top: 30%;
+    margin: auto;
+    padding: 2em 1px;
+    
+}
+.big-banner h1{
+ color:#F97300 ;
+ max
+}
+.big-banner p{
+ color:rgb(14, 29, 31);
+ font-size: 20px;
+ width: 50%;
+ line-height: 1.5;
+}
+.big-banner button{
+ border:1px  solid #F97300;
+ background:#F97300;
+ color:#fff;
+ align-content: center;
+}
+
+.home{
+    padding:4em 1px;
+}
+
+.home h1{
+
+    color:#f97300
+}
+
+.home img{
+
+    height:255px;
+    width: 350px;
+    object-fit: cover;
+    padding:1em 1px;
+  }
+
+.gallery h1{
+    padding:1em 1px;
+    color: #f97300
+    
+}
+.gallery img{
+
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    padding:1em 1px;
+
+}
+.Works h1{
+    padding: 1em 1px;
+    color:#f97300
+}
+.Works img{
+
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    padding:1em 1px;
+
+}
+
+.Services h1
+{
+    padding: 1em 1px;
+    color:#f97300
+}
+
+.Services .btn-secondary {
+    background-color: transparent;
+    border-color: #c60063;
+    color: #c60063;
+}
+.seminars h1{
+    padding: 1em 1px;
+    color:#f97300
+}
+
+.seminars card
+ {
+    width: 150%;
+    height: 150vw;
+    object-fit: cover;
+    padding: 1em 1px;
+}
+
+
+
+.career h2{
+
+    padding: 1em 1px;
+    color:#f97300
+
+}
+.career img{
+
+    width: 600px;
+    height: 400px;
+    object-fit: cover;
+    padding: 2em 1px;
+
+
+}
+.contact-form{
+    position: relative;  
+   }
+   
+   .contact-form h1{
+    padding:1em 1px;
+    color: #F97300; 
+   }
+   .contact-form .right{
+    max-width: 600px;
+   }
+   .contact-form .right .btn-secondary{
+    background:  #F97300;
+    color: #fff;
+    border:0;
+   }
+   .contact-form .right .form-control::placeholder{
+    color: #888;
+    font-size: 16px;
+   }
+   .img-fluid {
+    max-width: 150%;
+    height: auto;
+   }
+.connect{
+    background-color: #40474e;
+    color: white;
+    padding: 2rem 0 2rem;
+    margin-top: 2rem;
+}
+ .connect img{
+     height:3rem;
+     margin:1.5 rem 0;
+ }
+ .connect a{
+     color:white;
+     margin:1.2rem .5rem 0 0;
+
+ }
